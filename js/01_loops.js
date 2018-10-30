@@ -60,7 +60,7 @@ shapes.forEach(function(shape, i) {
 
 	var percentage = i / 200 * 100;
 
-	var color = hslColor(i*2, i, i);
+	var color = hslColor(i*2, percentage, 50);
 	shape.style.background = color;
 });
 

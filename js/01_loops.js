@@ -38,7 +38,6 @@ for(var i=0; i<200; i++) {
 
 }
 
-
 /* for loops,
 
 for (*number of time/s) {
@@ -50,5 +49,26 @@ i < 100;
 i++ aka i+1 increases the value of i by 1
 
 */
+
+// select all divs with class "shape"
+var shapes = document.querySelectorAll('.shape');
+
+// loop over all of the shapes
+shapes.forEach(function(shape, i) {
+	// what happens for each element
+	// console.log(i);
+	var color = hslColor(i, 50, 50);
+	shape.style.background = color;
+});
+
+
+
+
+
+
+
+
+
+
  
 

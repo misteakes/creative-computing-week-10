@@ -13,10 +13,6 @@ function hslColor(h, s, l) {
   return color;
 }
 
-
-
-
-
 /* TO DO */
 
 // 1. Select container element
@@ -24,3 +20,19 @@ function hslColor(h, s, l) {
 // 3. Create div element with a class "shape"
 // 4. Add div to container
 // 5. Add variation classes based on counter
+
+for(var i=0; i<200; i++) {
+
+	// create a div
+	var shape = document.createElement('div');
+
+	// add class "shape" to div
+	shape.classList.add('shape');
+
+	// select container div
+	var container = document.querySelector('.content');
+
+	// add the div to the DOM
+	container.append(shape);
+
+}

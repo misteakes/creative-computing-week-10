@@ -30,7 +30,7 @@ for(var i=0; i<2000; i++) {
 	shape.classList.add('shape');
 
 
-	if (i < 400) {
+	if (i % 2 == 0) {
 		shape.classList.add('variation-1');
 	}
 

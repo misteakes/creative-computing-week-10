@@ -61,6 +61,7 @@ for(var i=0; i<500; i++) {
   shape.classList.add('shape');
 
   shape.style.animationDuration = '5s';
+  shape.style.animationDelay = '1s';
 
   // select container div
   var container = document.querySelector('.content');

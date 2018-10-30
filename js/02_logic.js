@@ -41,3 +41,10 @@ for(var i=0; i<2000; i++) {
 	container.append(shape);
 
 }
+
+	if (i % 3 == 0) {
+		shape.classList.add('variation-2');
+	}
+
+
+

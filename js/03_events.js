@@ -63,7 +63,7 @@ for(var i=0; i<500; i++) {
   var duration = randomNumber (1, 5);
   // console.log(duration);
 
-  shape.style.animationDuration = + 's';
+  shape.style.animationDuration = duration + 's';
 
   // select container div
   var container = document.querySelector('.content');

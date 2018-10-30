@@ -69,7 +69,7 @@ for(var i=0; i<500; i++) {
   var duration = randomNumber (1000, 5000);
   // console.log(duration);
 
-  if (i> 200 && i <800){
+  if (i> 150 && i <350){
     shape.style.animationDuration = duration + 'ms';
 }
 

@@ -60,10 +60,16 @@ for(var i=0; i<500; i++) {
   // add class "shape" to div
   shape.classList.add('shape');
 
-  var duration = randomNumber (1, 5);
+  /* var duration = randomNumber (1, 5);
   // console.log(duration);
 
-  shape.style.animationDuration = duration + 's';
+  shape.style.animationDuration = duration + 's'; */
+
+  // changing to milliseconds, 1000!
+  var duration = randomNumber (1000, 5000);
+  // console.log(duration);
+
+  shape.style.animationDuration = duration + 'ms';
 
   // select container div
   var container = document.querySelector('.content');

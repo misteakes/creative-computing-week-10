@@ -66,8 +66,8 @@ shapes.forEach(function(shape, i) {
 	var color = hslColor(i+180, i, percentage);
 	shape.style.background = color;
 
-	shape.style.width = i / 5 + 'px';
-	shape.style.height = i / 5 + 'px';
+	shape.style.width = i / 3 + 'px';
+	shape.style.height = i / 3 + 'px';
 });
 
 

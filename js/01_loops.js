@@ -58,10 +58,16 @@ shapes.forEach(function(shape, i) {
 	// what happens for each element
 	// console.log(i);
 
-	var percentage = i / 200 * 100; //not using bc i like the rainbow
+	var percentage = i / 200 * 100; 
 
-	var color = hslColor(i*2, 50, 50);
+	//var color = hslColor(i*2, 50, 50); //rainbow
+	// shape.style.background = color;
+
+	var color = hslColor(i+180, i, percentage);
 	shape.style.background = color;
+
+	shape.style.width = i / 5 + 'px';
+	shape.style.height = i / 5 + 'px';
 });
 
 

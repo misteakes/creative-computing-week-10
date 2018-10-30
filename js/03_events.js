@@ -43,8 +43,6 @@ function hslColor(h, s, l) {
   return color;
 }
 
-
-
 /* TO DO */
 
 // 1. Select container element
@@ -53,3 +51,20 @@ function hslColor(h, s, l) {
 // 4. When the cursor is over the shape, add a modifier class
 // 5. When the cursor is outside of the shape, remove the modifier class
 // 6. When a shape is clicked, change the color
+
+for(var i=0; i<500; i++) {
+
+  // create a div
+  var shape = document.createElement('div');
+
+  // add class "shape" to div
+  shape.classList.add('shape');
+
+  // select container div
+  var container = document.querySelector('.content');
+
+  // add the div to the DOM
+  container.append(shape);
+
+}
+

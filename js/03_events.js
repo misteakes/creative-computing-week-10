@@ -73,6 +73,10 @@ for(var i=0; i<500; i++) {
     shape.style.animationDuration = duration + 'ms';
 }
 
+  shape.addEventListener('mouseover', function(event){
+    shape.classList.add('shape-interaction');
+  });
+
   // select container div
   var container = document.querySelector('.content');
 

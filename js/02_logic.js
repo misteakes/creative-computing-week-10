@@ -38,6 +38,10 @@ for(var i=0; i<2000; i++) {
 		shape.classList.add('variation-2');
 	}
 
+		if (i % 5 == 0) {
+		shape.classList.add('variation-3');
+	}
+
 	// select container div
 	var container = document.querySelector('.content');
 

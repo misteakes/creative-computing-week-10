@@ -22,15 +22,33 @@ function hslColor(h, s, l) {
 // 4. Count how many there are
 // 5. Iterate over shape divs to change style
 
-// create a div
-var shape = document.createElement('div');
+for(var i=0; i<100; i++) {
 
-// add class "shape" to div
-shape.classList.add('shape');
+	// create a div
+	var shape = document.createElement('div');
 
-// select container div
-var container = document.querySelector('.content');
+	// add class "shape" to div
+	shape.classList.add('shape');
 
-// add the div to the DOM
-container.append(shape);
+	// select container div
+	var container = document.querySelector('.content');
+
+	// add the div to the DOM
+	container.append(shape);
+
+}
+
+
+/* for loops,
+
+for (*number of time/s) {
+	
+}
+
+var i = 0;
+i < 100;
+i++ aka i+1 increases the value of i by 1
+
+*/
+ 
 

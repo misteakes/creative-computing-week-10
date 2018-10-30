@@ -60,8 +60,10 @@ for(var i=0; i<500; i++) {
   // add class "shape" to div
   shape.classList.add('shape');
 
-  shape.style.animationDuration = '5s';
-  shape.style.animationDelay = '1s';
+  var duration = randomNumber (1, 5);
+  // console.log(duration);
+
+  shape.style.animationDuration = + 's';
 
   // select container div
   var container = document.querySelector('.content');

@@ -57,6 +57,9 @@ var shapes = document.querySelectorAll('.shape');
 shapes.forEach(function(shape, i) {
 	// what happens for each element
 	// console.log(i);
+
+	var percentage = i / 200 * 100;
+
 	var color = hslColor(i*2, 50, 50);
 	shape.style.background = color;
 });

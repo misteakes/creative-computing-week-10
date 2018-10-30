@@ -21,7 +21,7 @@ function hslColor(h, s, l) {
 // 4. Add div to container
 // 5. Add variation classes based on counter
 
-for(var i=0; i<200; i++) {
+for(var i=0; i<2000; i++) {
 
 	// create a div
 	var shape = document.createElement('div');

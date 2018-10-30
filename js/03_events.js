@@ -85,3 +85,18 @@ for(var i=0; i<500; i++) {
 
 }
 
+var shapes = document.querySelectorAll('.shape');
+
+shapes.forEach(function(shape, i){
+  shape.addEventListener('mouseover', function(event){
+    shape.classList.add('shape-interaction');
+  });
+});
+
+
+
+
+
+
+
+
